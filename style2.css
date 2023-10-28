@@ -59,30 +59,31 @@ a {
 }
 
 #A {
-  background-color: white; 
-  width: auto;
-  height: auto;
-  border: 3px solid rgb(187, 175, 226);
   color: rgb(187, 175, 226);
-  padding: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
-  border-radius: 5px;
-}
-
-#B {
-  color: rgb(8, 8, 8);
   padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
   border-radius: 10px;
-  border: 3px solid  rgb(187, 175, 226); 
+  border: 5px solid rgb(187, 175, 226); 
+} 
+
+
+#B {
+  color: rgb(8, 8, 8);
+  padding: 10px;
+  padding-left: 38%;
+  padding-right: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px solid rgb(187, 175, 226); 
 } 
 
 th, td {
   border-style: ridge;
+  border-color: #4f4d71;
 }
 
 .center {
@@ -163,7 +164,6 @@ color:  #FF0000;
   color:rgb(8, 8, 8);
   text-align: center;
   padding-bottom: 0%;
-  margin-bottom: auto;
 }
 
 .parback2 {
