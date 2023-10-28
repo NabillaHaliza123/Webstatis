@@ -1,0 +1,174 @@
+
+/*reset*/
+body {
+  background-image: url(img/AB.avif);
+  background-size: cover;
+  font-family: helvetica;
+}
+
+/*images size*/
+img {
+  width: 10%;
+}
+
+.first {
+  background-image: url(img/AA.webp);
+  background-size: contain;
+  padding-top: 1%;
+  padding-bottom: 50%;
+}
+
+/*paragraf*/
+p {
+    color: black;
+    font-family: 'Franklin Gothic';
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-left: 60px;
+    color: black;
+    font-family: 'Franklin Gothic';
+}
+
+/*link*/
+a {
+    color: white;
+}
+
+/*class*/
+.head1 {
+  color: rgb(29, 19, 36);
+  font-size: 45px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align:center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.head2 {
+  border-radius: 10px;
+  background-color: rgb(187, 175, 226);
+  color: rgb(8, 8, 8);
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#A {
+  background-color: white; 
+  width: auto;
+  height: auto;
+  border: 3px solid rgb(187, 175, 226);
+  color: rgb(187, 175, 226);
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#B {
+  color: rgb(8, 8, 8);
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: 3px solid  rgb(187, 175, 226); 
+} 
+
+th, td {
+  border-style: ridge;
+}
+
+.center {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*link*/  
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: indigo;
+}
+
+a:hover {
+  color: blanchedalmond;
+}
+
+a:active {
+  color: chartreuse;
+}
+
+.image{
+  display: block;
+  margin: auto;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  background-color: #4f4d71;
+  background-size: cover;
+  color: black;
+  font-family: monospace;
+  text-align: left;
+}
+
+.fa-facebook {
+  color :#3b5998; 
+  margin-left: 5%; 
+}
+
+.fa-youtube{
+color:  #FF0000;
+  margin-left: 2%;
+}
+
+.fa-square-instagram  {
+  color:black;
+  margin-left: 2%;
+}
+
+.fa-tiktok{
+  color:black;
+  margin-left: 2%;
+}
+
+.par {
+  color: rgb(255, 11, 11);
+  padding-top: 0;
+  padding-left: 10px;
+  border-left: 2px solid rgb(10, 9, 9);
+  margin-left: 12px;
+}
+
+.parback {
+  color:rgb(8, 8, 8);
+  text-align: center;
+  padding-bottom: 0%;
+  margin-bottom: auto;
+}
+
+.parback2 {
+  color: rgb(8, 8, 8);
+  text-align:center;
+  padding-bottom: 1%;
+  margin-bottom: auto;
+}
