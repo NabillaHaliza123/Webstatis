@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo.jpg" />
+    <title>Atyla’s Cake</title>
+
+    <!-- Jenis font menuggunakan playfair display dari google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Icon menggunakan box icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="nav-header" class="navigation">
+        <a href="web-statis.html" class="logo">
+            <img src="img/logo.jpg" alt="logo">
+            Atyla’s Cake
+        </a>
+        <ul class="navigation-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Cake Gallery</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#kontak">Contact Us</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" onclick="toggleDropdown()" class="dropdown-toggle">Our Store <i
+                        class='bx bx-chevron-down'></i></a>
+                <ul id="dropdown-menu" class="dropdown-menu">
+                    <li><a href="#"><i class='bx bxs-store'></i> <span>Ciledug</span></a></li>
+                    <li><a href="#"><i class='bx bxs-store'></i> <span>Cipondoh</span></a></li>
+                    <li><a href="#"><i class='bx bxs-store'></i> <span>Ciputat</span></a></li>
+                </ul>
+            </li>
+            <li><a href="https://www.instagram.com/atylacake.official/?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr"
+                    target="_blank" class="contact ig"><i class='bx bxl-instagram'></i></a>
+            </li>
+            <li><a href="https://wa.me/6285715851895" target="_blank" class="contact wa"><i
+                        class='bx bxl-whatsapp'></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="hero">
+        <div class="hero-title">
+            <h1>Raya Bites by Atyla’s Cake : Ragam Rasa Kue Kering untuk Hari Raya</h1>
+            <p>Selamat datang di Atyla’s Cake tempat di mana keharuman kue kering berkualitas tinggi bertemu dengan
+                tradisi dan
+                kehangatan.</p>
+            <a href="#order" class="btn-primary"><i class='bx bx-cart-add'></i> Order Now</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">
+            Tentang Kami
+        </h2>
+        <div class="section-alignment">
+            <div class="section-image">
+                <img src="img/about bg.png" alt="about-us">
+            </div>
+            <div class="section-content">
+                <p>
+                    Kisah Atyla dimulai di sebuah dapur kecil di rumah kami. Ibu kami, Astuti meracik resep-resep kue
+                    kering
+                    tradisional
+                    yang telah diwariskan dari generasi ke generasi. Awalnya bermula dari hobi ibu kami pada pembuatan
+                    kue
+                    kering. Ia terus
+                    mengasah keterampilannya dan menambahkan sentuhan pribadinya pada setiap resep turun temurun yang
+                    diwariskan.
+                </p>
+                <p>
+                    Kue kering khas resep keluarga ini membentuk momen berharga yang membuat keluarga semakin erat.
+                    Bersama-sama, mereka
+                    merayakan kelezatan setiap kue dan menikmati kehangatan hubungan keluarga yang dibangun di sekitar
+                    meja
+                    dapur. Seiring
+                    berjalannya waktu, permintaan dari kerabat dan teman-teman untuk pesanan kue kering mulai meningkat.
+                </p>
+                <p>
+                    Dengan semangat dan kecintaan yang tulus terhadap seni kue kering, Ibu Kami memutuskan untuk membuka
+                    bisnis kecil.
+                    Awalnya, mereka hanya menerima pesanan terbatas untuk acara perayaan Hari Raya. Atyla’s Cake tidak
+                    hanya
+                    sebuah bisnis,
+                    itu adalah warisan keluarga yang terus berkembang, menceritakan cerita kecintaan pada seni kuliner
+                    dan
+                    kehangatan
+                    keluarga yang diteruskan dari satu generasi ke generasi berikutnya.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section>
+        <div class="qualtiy">
+            <div class="item">
+                <div class="icon"><i class='bx bxs-badge-check'></i></div>
+                <h5>Kualitas Handmade</h5>
+                <p>
+                    Setiap Atyla’s Cake dibuat dengan tangan penuh cinta dan perhatian. Kami memilih bahan-bahan
+                    terbaik, menghormati tradisi, dan memberikan sentuhan pribadi pada setiap kreasi. Kami percaya bahwa
+                    kualitas adalah kunci kelezatan, dan itulah yang kami hadirkan di setiap kemasan kue kering kami.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxs-receipt'></i></div>
+                <h5>Resep Keluarga yang Dijaga Ketat</h5>
+                <p>
+                    Resep kue kering kami adalah warisan keluarga yang telah melewati uji waktu. Dari nastar hingga
+                    kastengel, setiap resep dijaga ketat untuk memastikan rasa autentik dan kenangan manis dari masa
+                    kecil kami.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxs-donate-heart'></i></div>
+                <h5>Pelayanan Personal</h5>
+                <p>
+                    Atyla’s Cake bukan hanya bisnis rumahan, tapi juga keluarga. Kami memberikan pelayanan personal
+                    kepada setiap pelanggan,
+                    mendengarkan kebutuhan dan selera mereka untuk menciptakan pengalaman yang istimewa.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxs-universal-access'></i></div>
+                <h5>Dukungan Komunitas</h5>
+                <p>
+                    Dengan dukungan hangat dari tetangga dan teman di sekitar kami, Atyla’s Cake masih dalam tahap
+                    berkembang untuk menjadi
+                    usaha yang lebih luas lagi. Dukungan ini memberi kami semangat untuk terus berinovasi dan berbagi
+                    kelezatan dengan lebih
+                    banyak orang.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gellery Section -->
+    <section id="gallery">
+        <h2 class="section-title text-center">
+            Cake Gallery
+        </h2>
+        <div class="gallery">
+            <div class="item">
+                <img src="img/AA NASTAR (1).PNG" alt="cake">
+            </div>
+            <div class="item">
+                <img src="img/AA KB.PNG" alt="cake">
+            </div>
+            <div class="item">
+                <img src="img/AA SAGU.PNG" alt="cake">
+            </div>
+            <div class="item">
+                <img src="img/AA COOKIES.PNG" alt="cake">
+            </div>
+            <div class="item">
+                <img src="img/AA PS.PNG" alt="cake">
+            </div>
+            <div class="item">
+                <img src="img/AA KASTENGEL.PNG" cake">
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="bg-primary text-white">
+        <h2 class="section-title">
+            Order Sekarang
+        </h2>
+        <div class="section-alignment">
+            <div class="section-content">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="" class="form-label">Nama</label>
+                        <input type="text" class="form-input" placeholder="Masukkan nama kamu">
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Email</label>
+                        <input type="email" class="form-input" placeholder="Masukkan email kamu">
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">No. Handphone</label>
+                        <input type="text" class="form-input" placeholder="Masukkan no. handpone kamu">
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Alamat</label>
+                        <input type="text" class="form-input" placeholder="Masukkan alamat kamu">
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="form-label">Pesan</label>
+                        <textarea type="text" class="form-input" rows="5" placeholder="Masukkan pesan kamu"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn-order">Pesan Sekarang</button>
+                    </div>
+                </form>
+            </div>
+            <div class="section-image">
+                <img src="img/order.png" alt="orders" class="order-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Article Section -->
+    <section id="blog">
+        <h2 class="section-title text-center">
+            Blog
+        </h2>
+        <div class="article">
+            <div class="item">
+                <img src="img/cake-6.jpg" alt="cake">
+                <h5 class="article-title">
+                    Mengungkap Keajaiban Dunia Pastry: Seni dan Cita Rasa dalam Setiap Gigitan
+                </h5>
+                <p>
+                    Pastry, seni yang memikat dan cita rasa yang menawan, membawa kita ke dalam dunia di mana
+                    kreativitas bertemu dengan
+                    keterampilan kuliner yang tinggi.
+                </p>
+                <a href="https://www.cnnindonesia.com/gaya-hidup/20150227150032-262-35407/mengenal-pastry-cabang-ilmu-tersulit-di-dunia-kuliner"
+                    target="_blank" class="btn-link">Read More <i class='bx bx-chevron-right'></i></a>
+            </div>
+            <div class="item">
+                <img src="img/cake-2.jpg" alt="cake">
+                <h5 class="article-title">
+                    Croissant: Kelezatan Lapisan yang Menggoda di Dunia Pastry
+                </h5>
+                <p>Croissant, makanan penutup klasik yang berasal dari Prancis, telah mencuri hati para pencinta kuliner
+                    di seluruh dunia
+                    dengan kelezatan lapisan yang menggoda.</p>
+                <a href="https://www.unews.id/lifestyle/28810809902/lezatnya-cokelat-dalam-balutan-pastry-intip-resep-chocolate-croissant-yang-menggoda"
+                    target="_blank" class="btn-link">Read More <i class='bx bx-chevron-right'></i></a>
+            </div>
+            <div class="item">
+                <img src="img/cake-3.jpg" alt="cake">
+                <h5 class="article-title">
+                    Nastar: Kelezatan Tradisional yang Melebur di Lidah
+                </h5>
+                <p>
+                    Nastar, makanan ringan yang identik dengan momen-momen perayaan, telah menjadi kelezatan klasik yang
+                    melampaui batas
+                    generasi.
+                </p>
+                <a href="https://belitung.tribunnews.com/2023/04/03/resep-kue-lebaran-satu-adonan-bisa-dapat-enam-jenis-kue-kering-nastar-hingga-kastengel"
+                    target="_blank" class="btn-link">Read More <i class='bx bx-chevron-right'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="kontak">
+        <div class="section-alignment">
+            <div class="section-image">
+                <!-- Google map embed -->
+                <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+                    <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
+                            style="height:100%;width:100%;border:0;" frameborder="0"
+                            src="https://www.google.com/maps/embed/v1/place?q=Komplek+Winong+Permai,+Jalan+Winong+Permai,+RT.002/RW.005,+East+Sudimara,+Tangerang+City,+Banten,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    </div>
+
+                </div>
+            </div>
+            <div class="section-content">
+                <h2 class="section-title">Kontak Kami</h2>
+                <ul class="address">
+                    <li>
+                        <div class="icon"><i class='bx bxs-map-alt'></i></div>
+                        <span>Komplek Winong Permai, Blok F/6, Sudimara Timur, Ciledug, Kota Tangerang, Banten,
+                            15151</span>
+                    </li>
+                    <li>
+                        <div class="icon"><i class='bx bxs-phone'></i></div>
+                        <span>+62 217321610</span>
+                    </li>
+                    <li>
+                        <div class="icon"><i class='bx bxs-envelope'></i></div>
+                        <span>atylascake@gmail.com</span>
+                    </li>
+                </ul>
+                <p class="text-muted-sm">More Information</p>
+                <ul class="social-media">
+                    <li>
+                        <a href="#" class="icon">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Atyla’s Cake. All Rights Reserved.</p>
+        <p>Design by Nabilla Haliza</p>
+    </footer>
+</body>
+
+</html>
